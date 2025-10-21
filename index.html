@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduLearn - Smarter Learning for Everyone</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Edu<span>Learn</span></div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="/profile.html">Profile</a></a>
+      <a href="#courses">Courses</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Learn Smarter with <span>EduLearn</span></h1>
+      <p>Personalized AI-powered learning experience to help you master any subject faster.</p>
+      <button class="btn start-btn">🚀 Start Learning</button>
+    </div>
+  </section>
+
+  <!-- Search -->
+  <section class="search-section">
+    <input type="text" id="searchInput" placeholder="Search for courses..." />
+    <button class="btn" onclick="searchCourse()">Search</button>
+  </section>
+
+  <!-- Courses -->
+  <section id="courses" class="courses">
+    <h2>🔥 Popular Courses</h2>
+    <div class="course-container">
+      <div class="course-card">
+        <img src="images/course1.jpg" alt="Course 1">
+        <div class="course-info">
+          <h3>NEET Biology Mastery</h3>
+          <p>Understand human anatomy & physiology with real-life visuals and AI quizzes.</p>
+          <button class="btn">Enroll Now</button>
+        </div>
+      </div>
+      <div class="course-card">
+        <img src="images/course2.jpg" alt="Course 2">
+        <div class="course-info">
+          <h3>Physics Concepts Made Easy</h3>
+          <p>Visualize motion, energy, and electricity with interactive animations.</p>
+          <button class="btn">Enroll Now</button>
+        </div>
+      </div>
+      <div class="course-card">
+        <img src="images/course3.jpg" alt="Course 3">
+        <div class="course-info">
+          <h3>Smart Chemistry Crash Course</h3>
+          <p>Quickly grasp chemical reactions and equations with smart tricks.</p>
+          <button class="btn">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>About <span>EduLearn</span></h2>
+      <p>We blend technology and education to make learning personalized, engaging, and impactful. Our AI-driven tools help students study smarter, not harder.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>📩 Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 EduLearn | Crafted with 💙 by Aarish</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

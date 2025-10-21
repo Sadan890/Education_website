@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Profile | EduLearn</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="profile-body">
+
+  <div class="profile-container">
+    <a href="index.html" class="back-btn"><i class="ri-arrow-left-line"></i></a>
+
+    <div class="profile-header">
+      <img src="https://i.ibb.co/6n7Lx5M/user.png" alt="Profile Picture">
+      <h2>Aarish Khan</h2>
+      <p>NEET Aspirant | Biology Enthusiast</p>
+      <button class="edit-btn"><i class="ri-edit-line"></i> Edit Profile</button>
+    </div>
+
+    <div class="stats">
+      <div class="stat-card">
+        <i class="ri-flashlight-line"></i>
+        <h3>12</h3>
+        <p>Day Streak</p>
+      </div>
+      <div class="stat-card">
+        <i class="ri-award-line"></i>
+        <h3>850</h3>
+        <p>Total Points</p>
+      </div>
+      <div class="stat-card">
+        <i class="ri-bar-chart-line"></i>
+        <h3>#7</h3>
+        <p>Leaderboard</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Dark mode toggle
+    const toggle = document.querySelector('.dark-mode-toggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      toggle.innerHTML = 
+        document.body.classList.contains('dark') 
+        ? '<i class="ri-sun-line"></i> Light Mode'
+        : '<i class="ri-moon-line"></i> Dark Mode';
+    });
+  </script>
+</body>
+</html>
