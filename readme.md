@@ -47,7 +47,7 @@ education-app/ │
 ### 🧱 Local Setup
 1. Download or clone this repository:
    ```bash
-   git clone https://github.com/yourusername/education-app.git
+   git clone https://github.com/Sadan890/education-app.git
    
 2. Open the folder and run the index.html file in your browser.
 
