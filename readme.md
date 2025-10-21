@@ -66,7 +66,7 @@ education-app/ │
 
 4. Your website will go live at:
 
-https://sadan890.github.io/education-app/
+https://Sadan890.github.io/education-app/
 
 
 
